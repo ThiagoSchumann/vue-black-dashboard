@@ -5,17 +5,18 @@ import NotFound from "@/pages/NotFoundPage.vue";
 // Admin pages
 const Dashboard = () =>
   import(/* webpackChunkName: "dashboard" */ "@/pages/Dashboard.vue");
-const Profile = () =>
-  import(/* webpackChunkName: "common" */ "@/pages/Profile.vue");
-const Notifications = () =>
-  import(/* webpackChunkName: "common" */ "@/pages/Notifications.vue");
-const Icons = () =>
-  import(/* webpackChunkName: "common" */ "@/pages/Icons.vue");
-const Maps = () => import(/* webpackChunkName: "common" */ "@/pages/Maps.vue");
-const Typography = () =>
-  import(/* webpackChunkName: "common" */ "@/pages/Typography.vue");
-const TableList = () =>
-  import(/* webpackChunkName: "common" */ "@/pages/TableList.vue");
+const Categories = () =>
+  import(/* webpackChunkName: "common" */ "@/pages/Categories.vue");
+const Products = () =>
+  import(/* webpackChunkName: "common" */ "@/pages/Products.vue");
+const ShoppingLists = () =>
+  import(/* webpackChunkName: "common" */ "@/pages/ShoppingLists.vue");
+const ListDetail = () =>
+  import(/* webpackChunkName: "common" */ "@/pages/ListDetail.vue");
+const Purchase = () =>
+  import(/* webpackChunkName: "common" */ "@/pages/Purchase.vue");
+const History = () =>
+  import(/* webpackChunkName: "common" */ "@/pages/History.vue");
 
 const routes = [
   {
@@ -29,34 +30,34 @@ const routes = [
         component: Dashboard,
       },
       {
-        path: "profile",
-        name: "profile",
-        component: Profile,
+        path: "categories",
+        name: "categories",
+        component: Categories,
       },
       {
-        path: "notifications",
-        name: "notifications",
-        component: Notifications,
+        path: "products",
+        name: "products",
+        component: Products,
       },
       {
-        path: "icons",
-        name: "icons",
-        component: Icons,
+        path: "lists",
+        name: "lists",
+        component: ShoppingLists,
       },
       {
-        path: "maps",
-        name: "maps",
-        component: Maps,
+        path: "lists/:id",
+        name: "list-detail",
+        component: ListDetail,
       },
       {
-        path: "typography",
-        name: "typography",
-        component: Typography,
+        path: "purchase/:id",
+        name: "purchase",
+        component: Purchase,
       },
       {
-        path: "table-list",
-        name: "table-list",
-        component: TableList,
+        path: "history",
+        name: "history",
+        component: History,
       },
     ],
   },

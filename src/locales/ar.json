@@ -105,12 +105,8 @@
     "title": "توقيت الإبداعية",
     "shortTitle": "ط م",
     "dashboard": "لوحة القيادة",
-    "icons": "الرموز",
-    "maps": "خرائط",
-    "notifications": "إخطارات",
-    "userProfile": "ملف تعريفي للمستخدم",
-    "tableList": "قائمة الجدول",
-    "typography": "طباعة",
-    "rtlSupport": "دعم RTL"
+    "categories": "فئات",
+    "products": "منتجات",
+    "lists": "قوائم"
   }
 }
