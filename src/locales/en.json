@@ -105,17 +105,8 @@
     "title": "Creative Tim",
     "shortTitle": "CT",
     "dashboard": "dashboard",
-    "icons": "Icons",
-    "maps": "Maps",
-    "notifications": "Notifications",
-    "userProfile": "User Profile",
-    "tableList": "Table List",
     "categories": "Categories",
     "products": "Products",
-    "lists": "Shopping Lists",
-    "purchase": "Purchase",
-    "history": "History",
-    "typography": "Typography",
-    "rtlSupport": "RTL Support"
+    "lists": "Shopping Lists"
   }
 }
