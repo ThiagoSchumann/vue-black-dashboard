@@ -16,6 +16,18 @@ const Typography = () =>
   import(/* webpackChunkName: "common" */ "@/pages/Typography.vue");
 const TableList = () =>
   import(/* webpackChunkName: "common" */ "@/pages/TableList.vue");
+const Categories = () =>
+  import(/* webpackChunkName: "common" */ "@/pages/Categories.vue");
+const Products = () =>
+  import(/* webpackChunkName: "common" */ "@/pages/Products.vue");
+const ShoppingLists = () =>
+  import(/* webpackChunkName: "common" */ "@/pages/ShoppingLists.vue");
+const ListDetail = () =>
+  import(/* webpackChunkName: "common" */ "@/pages/ListDetail.vue");
+const Purchase = () =>
+  import(/* webpackChunkName: "common" */ "@/pages/Purchase.vue");
+const History = () =>
+  import(/* webpackChunkName: "common" */ "@/pages/History.vue");
 
 const routes = [
   {
@@ -57,6 +69,36 @@ const routes = [
         path: "table-list",
         name: "table-list",
         component: TableList,
+      },
+      {
+        path: "categories",
+        name: "categories",
+        component: Categories,
+      },
+      {
+        path: "products",
+        name: "products",
+        component: Products,
+      },
+      {
+        path: "lists",
+        name: "lists",
+        component: ShoppingLists,
+      },
+      {
+        path: "lists/:id",
+        name: "list-detail",
+        component: ListDetail,
+      },
+      {
+        path: "purchase/:id",
+        name: "purchase",
+        component: Purchase,
+      },
+      {
+        path: "history",
+        name: "history",
+        component: History,
       },
     ],
   },

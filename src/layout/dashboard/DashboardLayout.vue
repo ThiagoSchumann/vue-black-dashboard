@@ -33,6 +33,26 @@
           icon="tim-icons icon-puzzle-10"
         />
         <sidebar-link
+          to="/categories"
+          :name="$t('sidebar.categories')"
+          icon="tim-icons icon-tag"
+        />
+        <sidebar-link
+          to="/products"
+          :name="$t('sidebar.products')"
+          icon="tim-icons icon-bag-16"
+        />
+        <sidebar-link
+          to="/lists"
+          :name="$t('sidebar.lists')"
+          icon="tim-icons icon-bullet-list-67"
+        />
+        <sidebar-link
+          to="/history"
+          :name="$t('sidebar.history')"
+          icon="tim-icons icon-time-alarm"
+        />
+        <sidebar-link
           to="/typography"
           :name="$t('sidebar.typography')"
           icon="tim-icons icon-align-center"
